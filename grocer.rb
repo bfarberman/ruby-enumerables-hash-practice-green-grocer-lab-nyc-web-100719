@@ -42,8 +42,8 @@ def apply_coupons(cart, coupons)
       cart[couponed_item] = {:price => discounted_item_cost, :clearance => original_item [:clearance], :count => deal[:num]}
     end
   end
-  
-  
+  }
+  cart
 end
 
 
