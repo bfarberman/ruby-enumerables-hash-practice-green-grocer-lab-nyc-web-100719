@@ -27,7 +27,7 @@ def apply_coupons(cart, coupons)
   discounted_item_cost = deal[:cost] / deal [:num]
   original_item = cart[item]
   coupon_num = deal[:num] 
-  if cart.include? 
+  if cart.include?(item) &&  
 end
 
 
