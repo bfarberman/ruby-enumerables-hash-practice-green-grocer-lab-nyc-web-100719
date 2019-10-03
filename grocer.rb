@@ -60,12 +60,8 @@ def apply_clearance(cart)
     item_final = item_price - item_discount
     info[:price] = item_final
   end
-  
-  
-  
-  
-  
-  
+  }
+  cart 
 end
 
 
