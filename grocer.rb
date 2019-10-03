@@ -56,7 +56,7 @@ def apply_clearance(cart)
   cart.map {|item, info|
   if info[:clearance]
     item_price = info[:price]
-    item_discount = (item_price)
+    item_discount = (item_price * )
   
   
   
