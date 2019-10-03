@@ -54,7 +54,7 @@ end
 
 def apply_clearance(cart)
   cart.map {|item, info|
-  
+  if info 
   
   
   
