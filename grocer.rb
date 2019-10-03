@@ -1,7 +1,8 @@
 def consolidate_cart(cart = {})
   new_cart = {}
   cart.each {|object| 
-  object.each {|item, info| if new_cart[item] new_cart[item] [:count] += 1 
+  object.each {|item, info| 
+  if new_cart[item] new_cart[item] [:count] += 1 
   else
     new_cart[item] = info 
     new_cart[item] [:count] = 1 
