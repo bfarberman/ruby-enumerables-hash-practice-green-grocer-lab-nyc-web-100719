@@ -22,7 +22,8 @@ end
 
 def apply_coupons(cart, coupons)
   coupons.each {|deal| 
-  item = deal[]
+  item = deal[:item]
+  
 end
 
 
