@@ -78,13 +78,6 @@ def checkout(cart, coupons)
     total += item_total
   end
   total > 100 ? total = total - (total * 0.10) : total
-  
-  
-  
-  
-  
-  
-  
 end
 
 
