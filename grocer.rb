@@ -25,7 +25,7 @@ def apply_coupons(cart, coupons)
   item = deal[:item]
   couponed_item = "#{item} W/COUPON"
   discounted_item_cost = deal[:cost] / deal [:num]
-  original
+  original_item = 
 end
 
 
