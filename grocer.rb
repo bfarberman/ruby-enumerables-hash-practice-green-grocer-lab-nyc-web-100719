@@ -33,6 +33,8 @@ def apply_coupons(cart, coupons)
     if updated_count >= 0 
       original_item[:count] = updated_count
       cart[couponed_item] [:count] = cart[couponed_item] [:count] + deal[:num] 
+    end
+    
 end
 
 
