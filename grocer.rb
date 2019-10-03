@@ -36,7 +36,7 @@ def apply_coupons(cart, coupons)
     end
     elsif cart.include?(item)
     cart_count = original_item[:count]
-    
+    updated_count = cart_count
 end
 
 
