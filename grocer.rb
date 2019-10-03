@@ -29,7 +29,7 @@ def apply_coupons(cart, coupons)
   coupon_num = deal[:num] 
   if cart.include?(item) && cart.include?(couponed_item) 
     cart_count = original_item[:count]
-    updated_count = cart_count - 
+    updated_count = cart_count - coupon_num
 end
 
 
