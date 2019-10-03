@@ -53,7 +53,11 @@ end
 
 
 def apply_clearance(cart)
-  cart.map {||
+  cart.map {|item, info|
+  
+  
+  
+  
 end
 
 
