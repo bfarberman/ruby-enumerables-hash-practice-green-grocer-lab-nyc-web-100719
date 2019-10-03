@@ -39,7 +39,7 @@ def apply_coupons(cart, coupons)
     updated_count = cart_count - coupon_num
     if updated_count >= 0 
       original_item[:count] = updated_count 
-      cart[couponed_item] = {:price => discounted_item_cost, :clearance => original_item [:clearance], :count 
+      cart[couponed_item] = {:price => discounted_item_cost, :clearance => original_item [:clearance], :count => 
 end
 
 
