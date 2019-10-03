@@ -57,7 +57,7 @@ def apply_clearance(cart)
   if info[:clearance]
     item_price = info[:price]
     item_discount = (item_price * .2).round(2)
-    item_final 
+    item_final = item_price
   
   
   
