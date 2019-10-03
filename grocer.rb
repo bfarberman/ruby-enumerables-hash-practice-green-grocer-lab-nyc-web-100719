@@ -58,7 +58,7 @@ def apply_clearance(cart)
     item_price = info[:price]
     item_discount = (item_price * .2).round(2)
     item_final = item_price - item_discount
-    info[:price] 
+    info[:price] = item_final
   
   
   
