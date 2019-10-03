@@ -28,6 +28,7 @@ def apply_coupons(cart, coupons)
   original_item = cart[item]
   coupon_num = deal[:num] 
   if cart.include?(item) && cart.include?(couponed_item) 
+    cart_count = 
 end
 
 
