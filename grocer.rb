@@ -24,7 +24,7 @@ def apply_coupons(cart, coupons)
   coupons.each {|deal| 
   item = deal[:item]
   couponed_item = "#{item} W/COUPON"
-  discounted_item_cost = deal[:cost]
+  discounted_item_cost = deal[:cost] / deal 
 end
 
 
